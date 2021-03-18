@@ -59,22 +59,16 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
+/* Directly under cover image and to the left */
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Styling for strategies within section */
 .strategies {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,10 +78,23 @@ section {
     color: #ffffff;
 }
 
+/* Strategies images */
 .strategies img {
     max-height: 200px;
 }
 
+/* Styling for alternating left and right strategies images */
+.left-img {
+    float: left;
+    margin-right: 25px;
+}
+
+.right-img {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Strategies headings */
 .strategies h2 {
     margin-bottom: 20px;
     font-size: 36px;
