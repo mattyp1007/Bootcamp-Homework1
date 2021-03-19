@@ -1,13 +1,16 @@
+/* Universal styling */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Page body format */
 body {
     background-color: #d9dcd6;
 }
 
+/* Banner formatting */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* Page banner text */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changes color of part of banner text */
 h1 .seo {
     color: #d9dcd6;
 }
 
+/* Navigation links section */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,25 +38,29 @@ nav {
     font-size: 20px;
 }
 
+/* Nav links list */
 nav ul {
     list-style-type: none;
 }
 
+/* Nav links list items */
 nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Hyperlink style */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Standard paragraph style */
 p {
     font-size: 16px;
 }
 
-/* Cover image directly below the header */
+/* Cover image located directly below the header */
 .cover-img {
     height: 800px;
     width: 100%;
@@ -59,16 +69,14 @@ p {
     background-position: center;
 }
 
-
-
-/* Directly under cover image and to the left */
+/* Contains strategies section; located under cover image and to the left */
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Styling for strategies within section */
+/* Strategies box styling */
 .strategies {
     margin-bottom: 20px;
     padding: 50px;
@@ -78,29 +86,31 @@ section {
     color: #ffffff;
 }
 
-/* Strategies images */
-.strategies img {
-    max-height: 200px;
-}
-
-/* Styling for alternating left and right strategies images */
-.left-img {
-    float: left;
-    margin-right: 25px;
-}
-
-.right-img {
-    float: right;
-    margin-left: 25px;
-}
-
 /* Strategies headings */
 .strategies h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Blue box on the right side, bottom half of page describing SEO benefits */
+/* Strategies images */
+.strategies img {
+    max-height: 200px;
+}
+
+/* Styling for strategies with img on left */
+.left-img {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Styling for strategies with img on right */
+.right-img {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Styling for benefits box;
+located on the right side, bottom half of page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -131,6 +141,7 @@ section {
     max-width: 150px;
 }
 
+/* Footer text */
 footer {
     padding: 30px;
     clear: both;
@@ -138,6 +149,7 @@ footer {
     text-align: center;
 }
 
+/* Footer heading text */
 footer h2 {
     font-size: 20px;
 }
